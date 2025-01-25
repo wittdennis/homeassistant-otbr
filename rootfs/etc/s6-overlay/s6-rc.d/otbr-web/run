@@ -1,0 +1,12 @@
+#!/usr/bin/with-contenv bash
+# vim: ft=bash
+# shellcheck shell=bash
+# ==============================================================================
+# Start OpenThread BorderRouter web interface
+# ==============================================================================
+echo "INFO: Starting otbr-web..."
+declare otbr_web_port
+
+otbr_web_port="${OTBR_WEB_PORT:-8080}"
+
+exec stdbuf -oL /usr/sbin/otbr-web -I wpan0 -d6 -s -p "${otbr_web_port}"
