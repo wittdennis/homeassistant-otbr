@@ -1,0 +1,13 @@
+name: publish-image
+
+on:
+  release:
+    types: published
+
+jobs:
+  publish:
+    uses: wittdennis/.github/.github/workflows/publish-docker-image.yaml@master
+    with:
+      image-name: homeassistant-otbr
+    secrets:
+      registry-password: ${{ secrets.DOCKER_REGISTRY_TOKEN }}
