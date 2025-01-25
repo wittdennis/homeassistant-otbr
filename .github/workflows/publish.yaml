@@ -9,5 +9,7 @@ jobs:
     uses: wittdennis/.github/.github/workflows/publish-docker-image.yaml@master
     with:
       image-name: homeassistant-otbr
+      arm64-build-args: |
+        ARCH=aarch64
     secrets:
       registry-password: ${{ secrets.DOCKER_REGISTRY_TOKEN }}
