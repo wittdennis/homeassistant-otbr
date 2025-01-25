@@ -1,0 +1,41 @@
+name: github-release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.RELEASE_TOKEN }}
+
+      - name: setup git config
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+      - name: install cocogitto
+        uses: oknozor/cocogitto-action@v3.9
+        with:
+          check: false
+
+      - name: bump version
+        id: release
+        run: |
+          $VERSION=$(./parse_release_version.sh)
+          cog bump --version $VERSION
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: generate changelog
+        run: cog changelog --at ${{ steps.release.outputs.version }} > GITHUB_CHANGELOG.md
+
+      - uses: softprops/action-gh-release@v2.2.1
+        name: create release
+        with:
+          body_path: GITHUB_CHANGELOG.md
+          tag_name: ${{ steps.release.outputs.version }}
+          token: ${{ secrets.RELEASE_TOKEN }}
+          prerelease: ${{ steps.release.outputs.preview == 'true' }}
