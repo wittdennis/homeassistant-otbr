@@ -1,0 +1,12 @@
+name: pr
+
+on: [pull_request]
+
+jobs:
+  build:
+    uses: wittdennis/.github/.github/workflows/build-docker-image.yaml@versioning
+    with:
+      image-name: homeassistant-otbr
+      create-artifacts: false
+      arm64-build-args: |
+        ARCH=aarch64

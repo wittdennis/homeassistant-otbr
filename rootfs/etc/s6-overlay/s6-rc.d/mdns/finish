@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bash
+# vim: ft=bash
+# shellcheck shell=bash
+#==============================================================================
+# mDNSResponder finish script
+#==============================================================================
+echo "INFO: mDNS ended with exit code ${1} (signal ${2})..."
