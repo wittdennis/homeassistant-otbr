@@ -18,7 +18,7 @@ jobs:
           git config user.email github-actions@github.com
 
       - name: install cocogitto
-        uses: oknozor/cocogitto-action@v3.9
+        uses: oknozor/cocogitto-action@v3.10
         with:
           check: false
 
