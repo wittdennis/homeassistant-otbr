@@ -1,9 +1,7 @@
-name: validate-conventional-commits
+name: conventional-commits
 
 on: [push]
 
 jobs:
   conventional-compliance:
-    uses: wittdennis/.github/.github/workflows/validate-commit.yaml@master
-    with:
-      check-latest-tag-only: false
+    uses: wittdennis/pipelines/.github/workflows/cog-validate.yaml@1.5.0
