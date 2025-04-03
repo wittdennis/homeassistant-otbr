@@ -6,7 +6,7 @@ on:
 
 jobs:
   publish:
-    uses: wittdennis/pipelines/.github/workflows/container-image-publish.yaml@1.11.9
+    uses: wittdennis/pipelines/.github/workflows/container-image-publish.yaml@1.11.10
     with:
       image-name: homeassistant-otbr
       arm64-build-args: |
