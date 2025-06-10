@@ -32,7 +32,7 @@ jobs:
       - name: generate changelog
         run: cog changelog --at ${{ steps.release.outputs.version }} > GITHUB_CHANGELOG.md
 
-      - uses: softprops/action-gh-release@v2.2.2
+      - uses: softprops/action-gh-release@v2.3.0
         name: create release
         with:
           body_path: GITHUB_CHANGELOG.md
