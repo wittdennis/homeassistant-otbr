@@ -1,6 +1,28 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 # ==============================================================================
+# Select OTBR version and enable mDNSResponder for stable mode
+# ==============================================================================
+
+if [ "$BETA" == "1" ]; then
+    echo "INFO: Beta mode enabled, using OpenThread built-in mDNS."
+
+    ln -sf "/opt/otbr-beta/sbin/otbr-agent" /usr/sbin/otbr-agent
+    ln -sf "/opt/otbr-beta/sbin/otbr-web" /usr/sbin/otbr-web
+    ln -sf "/opt/otbr-beta/sbin/ot-ctl" /usr/sbin/ot-ctl
+else
+    echo "INFO: Stable mode, enabling mDNSResponder."
+
+    touch /etc/s6-overlay/s6-rc.d/user/contents.d/mdns
+    touch /etc/s6-overlay/s6-rc.d/otbr-agent/dependencies.d/mdns
+
+    ln -sf "/opt/otbr-stable/sbin/otbr-agent" /usr/sbin/otbr-agent
+    ln -sf "/opt/otbr-stable/sbin/otbr-web" /usr/sbin/otbr-web
+    ln -sf "/opt/otbr-stable/sbin/ot-ctl" /usr/sbin/ot-ctl
+    ln -sf "/opt/otbr-stable/sbin/mdnsd" /usr/sbin/mdnsd
+fi
+
+# ==============================================================================
 # Disable OTBR Web if necessary ports are not exposed
 # ==============================================================================
 
