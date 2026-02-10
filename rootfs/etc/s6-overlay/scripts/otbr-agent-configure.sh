@@ -4,6 +4,8 @@
 # Configure OTBR depending on add-on settings
 # ==============================================================================
 
+ot-ctl trel enable
+
 if [ "$NAT64" == "1" ]; then
     echo "INFO: Enabling NAT64."
     ot-ctl nat64 enable
