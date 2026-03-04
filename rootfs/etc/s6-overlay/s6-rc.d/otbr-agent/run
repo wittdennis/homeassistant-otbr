@@ -63,8 +63,8 @@ esac
 
 # shellcheck disable=SC2086
 if [ -z ${backbone_if} ]; then
-    echo "WARN: No primary network interface found! Using static eth0."
-    backbone_if="eth0"
+    echo "ERR: No primary network interface found. Please configure a backbone network interface."
+    exit 1
 fi
 
 # shellcheck disable=SC2015
