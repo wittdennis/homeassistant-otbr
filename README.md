@@ -12,7 +12,7 @@ Here are the config environment variables:
 | -------------- | :------: | --------------------------------------------------------------------- | ----------------- |
 | DEVICE         |    x     | Serial port where the OpenThread RCP Radio is attached                | /dev/ttyUSB0      |
 | BAUDRATE       |          | Serial port baudrate (depends on firmware)                            | 48000             |
-| BACKBONE_IF    |          | Underlying network interface to use                                   | wlan0             |
+| BACKBONE_IF    |    x     | Underlying network interface to use                                   | wlan0             |
 | FLOW_CONTROL   |          | If hardware flow control should be enabled (depends on firmware)      | 0                 |
 | OTBR_LOG_LEVEL |          | Set the log level of the OpenThread BorderRouter Agent                | 4                 |
 | FIREWALL       |          | Enable OpenThread Border Router firewall to block unnecessary traffic | 1                 |
