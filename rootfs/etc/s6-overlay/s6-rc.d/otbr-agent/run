@@ -18,7 +18,11 @@ declare otbr_rest_listen
 declare otbr_rest_listen_port
 
 backbone_if=$BACKBONE_IF
+
 device=$DEVICE
+if [ ! -z "$NETWORK_DEVICE" ]; then
+    device="/tmp/ttyOTBR"
+fi
 
 baudrate=$BAUDRATE
 flow_control=""
