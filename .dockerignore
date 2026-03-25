@@ -1,3 +1,5 @@
 LICENSE
-parse_release_version.sh
+cog.toml
 .github/
+README.md
+renovate.json

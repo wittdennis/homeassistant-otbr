@@ -25,3 +25,7 @@ For guidance how to use the addon see the official documentation.
 - https://github.com/home-assistant/addons/blob/master/openthread_border_router/DOCS.md
 - https://www.home-assistant.io/integrations/otbr/
 - https://www.home-assistant.io/integrations/thread/
+
+## Regarding Version 3.0.0
+
+I've decided to switch from using the upstream version to managing a separate semver version for this image. Hence, I've marked this as a breaking change. I'm still intending to provide this image as a 1:1 version feature wise, but managing my own semver gives me the ability to push necessary changes without re-pushing a container image into an already existing tag if the need arises.
