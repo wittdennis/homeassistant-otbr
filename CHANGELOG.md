@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [3.0.2](https://github.com/wittdennis/homeassistant-otbr/compare/7383a3f23e1a7e281680cd352ec1a53dcd0589b7..3.0.2) - 2026-03-26
+#### Bug Fixes
+- remove missed files from beta flag - ([7383a3f](https://github.com/wittdennis/homeassistant-otbr/commit/7383a3f23e1a7e281680cd352ec1a53dcd0589b7)) - Dennis Witt
+
+- - -
+
 ## [3.0.1](https://github.com/wittdennis/homeassistant-otbr/compare/4c8a103968c789bf1a0e98c5ef66d70cb017465c..3.0.1) - 2026-03-26
 #### Bug Fixes
 - additionaly push image to ghcr.io - ([257c8c0](https://github.com/wittdennis/homeassistant-otbr/commit/257c8c0e1c37bbf6e7814828a06977c8e75aac1e)) - Dennis Witt
