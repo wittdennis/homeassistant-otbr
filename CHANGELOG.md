@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [3.0.3](https://github.com/wittdennis/homeassistant-otbr/compare/af07ca148e0c5875ae698097fd1f7af5bec7c742..3.0.3) - 2026-04-09
+#### Bug Fixes
+- Improve firewall and NAT64 rules / enable RCP recovery in beta - ([264bcb7](https://github.com/wittdennis/homeassistant-otbr/commit/264bcb7f962a267fb2a86857f94f1d58c054c543)) - Dennis Witt
+#### Miscellaneous Chores
+- (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v2.16.6 - ([df848b4](https://github.com/wittdennis/homeassistant-otbr/commit/df848b40c7d22f946aba03056c0eb4650c9f1332)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.5 - ([06a4f20](https://github.com/wittdennis/homeassistant-otbr/commit/06a4f2057bacfadcde373f10c2f36a4dbab5116b)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.4 - ([d14f481](https://github.com/wittdennis/homeassistant-otbr/commit/d14f48194585b9fe2c22407bf619f6fda151c75a)) - wittdennis-renovate[bot]
+- (**deps**) pin wittdennis/pipelines action to 29f41b6 - ([acef8cb](https://github.com/wittdennis/homeassistant-otbr/commit/acef8cb35cc8ebf63e2ef561c3adeba994ecbc71)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.2 - ([5be0415](https://github.com/wittdennis/homeassistant-otbr/commit/5be0415d9e28bb2075cb8af1060e7b08446db7f9)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.1 - ([af07ca1](https://github.com/wittdennis/homeassistant-otbr/commit/af07ca148e0c5875ae698097fd1f7af5bec7c742)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [3.0.2](https://github.com/wittdennis/homeassistant-otbr/compare/7383a3f23e1a7e281680cd352ec1a53dcd0589b7..3.0.2) - 2026-03-26
 #### Bug Fixes
 - remove missed files from beta flag - ([7383a3f](https://github.com/wittdennis/homeassistant-otbr/commit/7383a3f23e1a7e281680cd352ec1a53dcd0589b7)) - Dennis Witt
