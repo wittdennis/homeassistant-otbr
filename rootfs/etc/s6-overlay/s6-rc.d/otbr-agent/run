@@ -19,6 +19,11 @@ declare otbr_rest_listen_port
 
 backbone_if=$BACKBONE_IF
 
+# Check if IPv6 forwarding is enabled
+if [ "$(cat /proc/sys/net/ipv6/conf/all/forwarding)" != "1" ]; then
+    echo "WARN: IPv6 routing/forwarding is not enabled! Make sure your host has IPv6 forwarding enabled."
+fi
+
 device=$DEVICE
 if [ ! -z "$NETWORK_DEVICE" ]; then
     device="/tmp/ttyOTBR"
