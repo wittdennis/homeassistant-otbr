@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [3.0.4](https://github.com/wittdennis/homeassistant-otbr/compare/4225398bea4bd488fdbc778ecd8a6e4f852b5592..3.0.4) - 2026-04-10
+#### Bug Fixes
+- Print a warning if IPv6 routing is disabled - ([65bbf7f](https://github.com/wittdennis/homeassistant-otbr/commit/65bbf7f4bddea8974c6defd3aa8f9b11a5e61c0b)) - Dennis Witt
+#### Miscellaneous Chores
+- (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v2.16.7 - ([4225398](https://github.com/wittdennis/homeassistant-otbr/commit/4225398bea4bd488fdbc778ecd8a6e4f852b5592)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [3.0.3](https://github.com/wittdennis/homeassistant-otbr/compare/af07ca148e0c5875ae698097fd1f7af5bec7c742..3.0.3) - 2026-04-09
 #### Bug Fixes
 - Improve firewall and NAT64 rules / enable RCP recovery in beta - ([264bcb7](https://github.com/wittdennis/homeassistant-otbr/commit/264bcb7f962a267fb2a86857f94f1d58c054c543)) - Dennis Witt
