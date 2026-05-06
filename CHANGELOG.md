@@ -2,6 +2,24 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [3.0.5](https://github.com/wittdennis/homeassistant-otbr/compare/b564f6c692366ea091b695ad785563c6c73b82c8..3.0.5) - 2026-05-06
+#### Bug Fixes
+- customize mDNS hostname in beta mode - ([e2b9bbe](https://github.com/wittdennis/homeassistant-otbr/commit/e2b9bbe6a010383af4a6232a961bce6f19481006)) - Dennis Witt
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.9 - ([0e10cfb](https://github.com/wittdennis/homeassistant-otbr/commit/0e10cfbdf293b11e85d2ae24bf7a2f79b6d29f88)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v2.16.8 - ([4bba74c](https://github.com/wittdennis/homeassistant-otbr/commit/4bba74c21ceedd243ad0dc05af0a9187c1082150)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.14 - ([bfea639](https://github.com/wittdennis/homeassistant-otbr/commit/bfea639d1425912984402dacab739245a52563df)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.13 - ([c283d84](https://github.com/wittdennis/homeassistant-otbr/commit/c283d84dc931c6f83b8265e4887c078fd08d695e)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.12 - ([4d79a2d](https://github.com/wittdennis/homeassistant-otbr/commit/4d79a2dc6b3b340edd210cbc636839c90af2fe41)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.11 - ([520d530](https://github.com/wittdennis/homeassistant-otbr/commit/520d530434431b914f9ed5ebb291bb5eea24d55d)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.10 - ([a80da53](https://github.com/wittdennis/homeassistant-otbr/commit/a80da53b140226f582c6ea026a2d4c7f0703e75e)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.8 - ([8b02724](https://github.com/wittdennis/homeassistant-otbr/commit/8b02724862963eef3a38ad02e357b47fdb0ac756)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.7 - ([60435b4](https://github.com/wittdennis/homeassistant-otbr/commit/60435b42a02b14804dbf2b2785d25a61a0044e6c)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.6 - ([b564f6c](https://github.com/wittdennis/homeassistant-otbr/commit/b564f6c692366ea091b695ad785563c6c73b82c8)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [3.0.4](https://github.com/wittdennis/homeassistant-otbr/compare/4225398bea4bd488fdbc778ecd8a6e4f852b5592..3.0.4) - 2026-04-10
 #### Bug Fixes
 - Print a warning if IPv6 routing is disabled - ([65bbf7f](https://github.com/wittdennis/homeassistant-otbr/commit/65bbf7f4bddea8974c6defd3aa8f9b11a5e61c0b)) - Dennis Witt
