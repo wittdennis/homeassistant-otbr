@@ -4,7 +4,7 @@ on: [pull_request]
 
 jobs:
   build:
-    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@d30ae383896657cd09cf53e41b71edbe06a58a6d # 2.0.17
+    uses: wittdennis/pipelines/.github/workflows/container-image-build.yaml@cfd75389228d28dcd8aa4cc4d27599426ff9746c # 2.0.18
     with:
       image-name: homeassistant-otbr
       create-artifacts: false
