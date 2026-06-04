@@ -5,6 +5,6 @@ on:
 
 jobs:
   release:
-    uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@d7142ea4fc5237aae7ec616148530adc3577ec7d # 2.0.23
+    uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@ec4833e22f9ab030d5c1393bc538c7fbe41885b0 # 2.0.24
     secrets:
       release-token: ${{ secrets.RELEASE_TOKEN }}
