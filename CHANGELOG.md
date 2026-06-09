@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [4.0.1](https://github.com/wittdennis/homeassistant-otbr/compare/9ff7656c907f873e6ff3e171885aeda7ed3018c0..4.0.1) - 2026-06-09
+#### Continuous Integration
+- add version input - ([c0c15fa](https://github.com/wittdennis/homeassistant-otbr/commit/c0c15faacbfdf645405802f5178d41e5ca7d6751)) - Dennis Witt
+#### Miscellaneous Chores
+- (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v3.0.1 - ([6f3b392](https://github.com/wittdennis/homeassistant-otbr/commit/6f3b39288a04fb8a260d3a3407d3de59234ec6b5)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.24 - ([4aeec24](https://github.com/wittdennis/homeassistant-otbr/commit/4aeec24164a1f631e8c3d5e4c51043801eadd607)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.23 - ([9ff7656](https://github.com/wittdennis/homeassistant-otbr/commit/9ff7656c907f873e6ff3e171885aeda7ed3018c0)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [4.0.0](https://github.com/wittdennis/homeassistant-otbr/compare/444f6c115710f2d62594064948e39d5f224371e9..4.0.0) - 2026-05-29
 #### Features
 - ![BREAKING](https://img.shields.io/badge/BREAKING-red) promote Thread 1.4 beta to stable - ([91a8da9](https://github.com/wittdennis/homeassistant-otbr/commit/91a8da94abff50d1d375ec31d73700c550160483)) - Dennis Witt
