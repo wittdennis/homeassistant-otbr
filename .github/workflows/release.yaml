@@ -2,9 +2,16 @@ name: github-release
 
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        default: "auto"
+        description: "The version for the release. Use auto for conventional commit auto calculation"
+        required: true
 
 jobs:
   release:
     uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@ec4833e22f9ab030d5c1393bc538c7fbe41885b0 # 2.0.24
+    with:
+      version: ${{ inputs.version }}
     secrets:
       release-token: ${{ secrets.RELEASE_TOKEN }}
