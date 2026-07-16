@@ -2,6 +2,26 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [4.1.0](https://github.com/wittdennis/homeassistant-otbr/compare/6d5e2bc4543f67bed505268aacc934fc43a5fe9e..4.1.0) - 2026-07-16
+#### Features
+- honor OTBR_LOG_LEVEL for the web UI - ([2094f72](https://github.com/wittdennis/homeassistant-otbr/commit/2094f72e6626d57f810397069703efff66724915)) - Dennis Witt, Claude Opus 4.8
+#### Miscellaneous Chores
+- (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v3.0.2 - ([37b5a45](https://github.com/wittdennis/homeassistant-otbr/commit/37b5a45f9c1ad76aff56477ca5e25b2cc911fd87)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.36 - ([4346a0d](https://github.com/wittdennis/homeassistant-otbr/commit/4346a0d65c39f876e66824e8cb6a991d7e6b6e0b)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.35 - ([5c00590](https://github.com/wittdennis/homeassistant-otbr/commit/5c00590b743bd0e8d8aa732c0ac8e1c4cfba18a6)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.34 - ([a4d4296](https://github.com/wittdennis/homeassistant-otbr/commit/a4d4296b7484a34856735f174d277733d3058956)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.33 - ([acc950a](https://github.com/wittdennis/homeassistant-otbr/commit/acc950a221e5501a16210f04defa5644d84ae31b)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.32 - ([41be765](https://github.com/wittdennis/homeassistant-otbr/commit/41be7658e7d91294b32a42fa820f628c673e52d6)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.31 - ([de06c2a](https://github.com/wittdennis/homeassistant-otbr/commit/de06c2a479c56a4347cb0f4527ef5a3c2e58d6c9)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.29 - ([ca84473](https://github.com/wittdennis/homeassistant-otbr/commit/ca8447375e7b26573c359ba0496eeb71130c9970)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.28 - ([32fce44](https://github.com/wittdennis/homeassistant-otbr/commit/32fce445e9b199445f861992b3af0fdf18b510d1)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.26 - ([e43350a](https://github.com/wittdennis/homeassistant-otbr/commit/e43350a395ae22d4ddab3f9ab16f6d27c185aa9b)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.25 - ([6d5e2bc](https://github.com/wittdennis/homeassistant-otbr/commit/6d5e2bc4543f67bed505268aacc934fc43a5fe9e)) - wittdennis-renovate[bot]
+- add .claude dir to dockerignore - ([dab893d](https://github.com/wittdennis/homeassistant-otbr/commit/dab893d71811272812740809b962912e66d2edc0)) - Dennis Witt
+- add sync-upstream-otbr skill - ([5755ed2](https://github.com/wittdennis/homeassistant-otbr/commit/5755ed260620989a17fd36f65f5e3105e714f605)) - Dennis Witt, Claude Opus 4.8
+
+- - -
+
 ## [4.0.1](https://github.com/wittdennis/homeassistant-otbr/compare/9ff7656c907f873e6ff3e171885aeda7ed3018c0..4.0.1) - 2026-06-09
 #### Continuous Integration
 - add version input - ([c0c15fa](https://github.com/wittdennis/homeassistant-otbr/commit/c0c15faacbfdf645405802f5178d41e5ca7d6751)) - Dennis Witt
