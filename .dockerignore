@@ -3,3 +3,4 @@ cog.toml
 .github/
 README.md
 renovate.json
+.claude/
