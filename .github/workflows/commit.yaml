@@ -4,4 +4,4 @@ on: [push]
 
 jobs:
   conventional-compliance:
-    uses: wittdennis/pipelines/.github/workflows/cog-validate.yaml@0d6d7ea86ee5a77cd1493ef7cae0a749787ce637 # 2.0.41
+    uses: wittdennis/pipelines/.github/workflows/cog-validate.yaml@77479061311bbfdee843a8b8afd48297f9202a5f # 2.0.42
