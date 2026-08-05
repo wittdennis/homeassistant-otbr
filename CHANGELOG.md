@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [4.2.0](https://github.com/wittdennis/homeassistant-otbr/compare/8393e6fd92bf3b0da104e34ca57bd8fc96286838..4.2.0) - 2026-08-05
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.42 - ([164c319](https://github.com/wittdennis/homeassistant-otbr/commit/164c319ca661d86f1185710a288879a732322747)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.41 - ([ee9eb2e](https://github.com/wittdennis/homeassistant-otbr/commit/ee9eb2e649774b0f77cd15fbbe8d0ec30a5bbfa1)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.40 - ([8f19079](https://github.com/wittdennis/homeassistant-otbr/commit/8f190794194235c7e02e78fb2240d4c081094ef6)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.39 - ([b60ba7f](https://github.com/wittdennis/homeassistant-otbr/commit/b60ba7f98d81bef7deeb78286bb95a7436259feb)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.38 - ([d675754](https://github.com/wittdennis/homeassistant-otbr/commit/d675754423361dbe5c6a85353140ce5cd475d7ab)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.37 - ([8393e6f](https://github.com/wittdennis/homeassistant-otbr/commit/8393e6fd92bf3b0da104e34ca57bd8fc96286838)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v3.1.0 - ([22f8726](https://github.com/wittdennis/homeassistant-otbr/commit/22f87266967bc9bacdedd8f29d1a07e21cbe19c4)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [4.1.0](https://github.com/wittdennis/homeassistant-otbr/compare/6d5e2bc4543f67bed505268aacc934fc43a5fe9e..4.1.0) - 2026-07-16
 #### Features
 - honor OTBR_LOG_LEVEL for the web UI - ([2094f72](https://github.com/wittdennis/homeassistant-otbr/commit/2094f72e6626d57f810397069703efff66724915)) - Dennis Witt, Claude Opus 4.8
