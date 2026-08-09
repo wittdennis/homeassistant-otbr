@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [4.2.1](https://github.com/wittdennis/homeassistant-otbr/compare/37f06fcb8c7796b43cb52af578acc309001b0c58..4.2.1) - 2026-08-09
+#### Bug Fixes
+- baudrate was required even though not needed for network devices - ([37f06fc](https://github.com/wittdennis/homeassistant-otbr/commit/37f06fcb8c7796b43cb52af578acc309001b0c58)) - Dennis Witt
+
+- - -
+
 ## [4.2.0](https://github.com/wittdennis/homeassistant-otbr/compare/8393e6fd92bf3b0da104e34ca57bd8fc96286838..4.2.0) - 2026-08-05
 #### Continuous Integration
 - (**deps**) update wittdennis/pipelines action to v2.0.42 - ([164c319](https://github.com/wittdennis/homeassistant-otbr/commit/164c319ca661d86f1185710a288879a732322747)) - wittdennis-renovate[bot]
