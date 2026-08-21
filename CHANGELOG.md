@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [4.2.2](https://github.com/wittdennis/homeassistant-otbr/compare/f0dddd0628a29577f2f9360ce02c61063dc8aae8..4.2.2) - 2026-08-21
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.46 - ([aae06ec](https://github.com/wittdennis/homeassistant-otbr/commit/aae06ec8bf93c0565c9c214756dd3faf81edcd9e)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.45 - ([520734d](https://github.com/wittdennis/homeassistant-otbr/commit/520734d4c21e393bf4276f6414cca8c7cc0e03d8)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.44 - ([0a101e2](https://github.com/wittdennis/homeassistant-otbr/commit/0a101e29a28a37f9f2efdaa26cf515a3bcfabc92)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.43 - ([f0dddd0](https://github.com/wittdennis/homeassistant-otbr/commit/f0dddd0628a29577f2f9360ce02c61063dc8aae8)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v3.1.1 - ([1e349ff](https://github.com/wittdennis/homeassistant-otbr/commit/1e349ff35742cf3d52e30001ce82945240853c7f)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [4.2.1](https://github.com/wittdennis/homeassistant-otbr/compare/37f06fcb8c7796b43cb52af578acc309001b0c58..4.2.1) - 2026-08-09
 #### Bug Fixes
 - baudrate was required even though not needed for network devices - ([37f06fc](https://github.com/wittdennis/homeassistant-otbr/commit/37f06fcb8c7796b43cb52af578acc309001b0c58)) - Dennis Witt
