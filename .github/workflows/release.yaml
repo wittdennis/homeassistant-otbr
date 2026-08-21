@@ -10,7 +10,7 @@ on:
 
 jobs:
   release:
-    uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@6ca7c92a984adecdeef5d074021a90c414e6f389 # 2.0.45
+    uses: wittdennis/pipelines/.github/workflows/cog-release.yaml@749bb65f519a91aab3502c33024e62051793edda # 2.0.46
     with:
       version: ${{ inputs.version }}
     secrets:
