@@ -7,7 +7,7 @@ on:
 
 jobs:
   publish:
-    uses: wittdennis/pipelines/.github/workflows/container-image-publish.yaml@749bb65f519a91aab3502c33024e62051793edda # 2.0.46
+    uses: wittdennis/pipelines/.github/workflows/container-image-publish.yaml@06645518a72040625d2b681086324d8a266c41c0 # 2.0.47
     permissions:
       contents: read
       packages: write
