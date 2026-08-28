@@ -3,7 +3,7 @@
   "extends": ["local>wittdennis/renovate-config"],
   "packageRules": [
     {
-      "matchDepNames": ["homeassistant/amd64-addon-otbr"],
+      "matchPackageNames": ["docker.io/homeassistant/amd64-addon-otbr"],
       "semanticCommitType": "fix"
     }
   ]
