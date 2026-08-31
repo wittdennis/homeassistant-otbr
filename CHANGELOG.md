@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [4.2.3](https://github.com/wittdennis/homeassistant-otbr/compare/3dbd7810382ea1cec6e61c54da3915300ee51070..4.2.3) - 2026-08-31
+#### Bug Fixes
+- (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v3.1.2 - ([85dcaf3](https://github.com/wittdennis/homeassistant-otbr/commit/85dcaf387d5a7445f7d799e5221c0818559587a8)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.48 - ([0d9b102](https://github.com/wittdennis/homeassistant-otbr/commit/0d9b102745f66a45b8e588459959f3180262ad3b)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.47 - ([3dbd781](https://github.com/wittdennis/homeassistant-otbr/commit/3dbd7810382ea1cec6e61c54da3915300ee51070)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [4.2.2](https://github.com/wittdennis/homeassistant-otbr/compare/f0dddd0628a29577f2f9360ce02c61063dc8aae8..4.2.2) - 2026-08-21
 #### Continuous Integration
 - (**deps**) update wittdennis/pipelines action to v2.0.46 - ([aae06ec](https://github.com/wittdennis/homeassistant-otbr/commit/aae06ec8bf93c0565c9c214756dd3faf81edcd9e)) - wittdennis-renovate[bot]
