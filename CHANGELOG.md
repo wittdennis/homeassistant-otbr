@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [4.2.5](https://github.com/wittdennis/homeassistant-otbr/compare/1c3f82ff8afe66abb17caa504918323add098c0f..4.2.5) - 2026-09-16
+#### Bug Fixes
+- replace missed bashio::log call (#187) - ([1c3f82f](https://github.com/wittdennis/homeassistant-otbr/commit/1c3f82ff8afe66abb17caa504918323add098c0f)) - Alexander Hofbauer
+
+- - -
+
 ## [4.2.4](https://github.com/wittdennis/homeassistant-otbr/compare/419df8ba022c1ccf26571266a955744986a65abd..4.2.4) - 2026-09-16
 #### Bug Fixes
 - (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v3.2.0 - ([aa261fb](https://github.com/wittdennis/homeassistant-otbr/commit/aa261fb857a1b511b37e30b8e48bb55009d11c3d)) - wittdennis-renovate[bot]
