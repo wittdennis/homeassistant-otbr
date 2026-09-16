@@ -13,7 +13,7 @@ if [ "$NAT64" == "1" ]; then
 fi
 
 mdns_localhostname="$(hostname)-otbr"
-bashio::log.info "Setting OpenThread mDNS local hostname to ${mdns_localhostname}."
+echo "INFO: Setting OpenThread mDNS local hostname to ${mdns_localhostname}."
 ot-ctl mdns localhostname "${mdns_localhostname}"
 ot-ctl mdns enable
 
