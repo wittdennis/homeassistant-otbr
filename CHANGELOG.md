@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [4.2.4](https://github.com/wittdennis/homeassistant-otbr/compare/419df8ba022c1ccf26571266a955744986a65abd..4.2.4) - 2026-09-16
+#### Bug Fixes
+- (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v3.2.0 - ([aa261fb](https://github.com/wittdennis/homeassistant-otbr/commit/aa261fb857a1b511b37e30b8e48bb55009d11c3d)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.56 - ([0eb0467](https://github.com/wittdennis/homeassistant-otbr/commit/0eb0467e0961d401a08ce062af65efed1ad54d72)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.55 - ([4cd8c4e](https://github.com/wittdennis/homeassistant-otbr/commit/4cd8c4e9c9eba8725ddfc368ec71d8999b34153c)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.54 - ([957bfbc](https://github.com/wittdennis/homeassistant-otbr/commit/957bfbcb15097a33612f8f80a21e8f855c0f8fcc)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.53 - ([330b61f](https://github.com/wittdennis/homeassistant-otbr/commit/330b61fd00523ea8c7d27cc99bab7cac2edfce9f)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.52 - ([6b55f76](https://github.com/wittdennis/homeassistant-otbr/commit/6b55f769ba87418c2645c55ea3e89d2ae72ab602)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.50 - ([516f92e](https://github.com/wittdennis/homeassistant-otbr/commit/516f92ea50ef5066cf7a79bce051c84db0b354bc)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.49 - ([419df8b](https://github.com/wittdennis/homeassistant-otbr/commit/419df8ba022c1ccf26571266a955744986a65abd)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [4.2.3](https://github.com/wittdennis/homeassistant-otbr/compare/3dbd7810382ea1cec6e61c54da3915300ee51070..4.2.3) - 2026-08-31
 #### Bug Fixes
 - (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v3.1.2 - ([85dcaf3](https://github.com/wittdennis/homeassistant-otbr/commit/85dcaf387d5a7445f7d799e5221c0818559587a8)) - wittdennis-renovate[bot]
