@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [4.2.7](https://github.com/wittdennis/homeassistant-otbr/compare/eb959a588775699876e1dabfc4d75e3e4f7532e1..4.2.7) - 2026-10-07
+#### Bug Fixes
+- (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v3.3.0 - ([eb959a5](https://github.com/wittdennis/homeassistant-otbr/commit/eb959a588775699876e1dabfc4d75e3e4f7532e1)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [4.2.6](https://github.com/wittdennis/homeassistant-otbr/compare/9a76afec7ce8f22fa4340115a1d3b3a3d20ce73f..4.2.6) - 2026-10-06
 #### Bug Fixes
 - (**deps**) update docker.io/homeassistant/amd64-addon-otbr docker tag to v3.2.1 (#191) - ([5fccd56](https://github.com/wittdennis/homeassistant-otbr/commit/5fccd5609cf96365acd30168f0c349da52c50301)) - wittdennis-renovate[bot], Claude Opus 5.5, wittdennis-renovate[bot], Dennis Witt, Claude Opus 5.5
